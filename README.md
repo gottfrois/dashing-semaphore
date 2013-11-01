@@ -36,7 +36,7 @@ Follow the following steps in order to make it work on your dashing-rails projec
 
         rails g dashing:semaphore:install
 
-5. Edit `config/initializers/dashing-semaphore.rb.rb` with your semaphore crendentials and project name as follow:
+5. Edit `config/initializers/dashing-semaphore.rb` with your semaphore crendentials and project name as follow:
 
         Dashing::Semaphore.configure do |config|
             config.auth_token = 'your_auth_token_from_semaphore'
@@ -54,7 +54,7 @@ Follow the following steps in order to make it work on your dashing-rails projec
 
 ### Required
 
-* `data-id`: Like all widgets, you must include an identifier so that your jobs can update the value. It is the same that the key value of the hash in `config/initializers/dashing-semaphore.rb.rb`.
+* `data-id`: Like all widgets, you must include an identifier so that your jobs can update the value. It is the same that the key value of the hash in `config/initializers/dashing-semaphore.rb`.
 
 ## Contributing
 
