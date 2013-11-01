@@ -5,4 +5,3 @@ RSpec::Core::RakeTask.new('spec')
 
 task default: :spec
 task test:    :spec
-require "bundler/gem_tasks"
