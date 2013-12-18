@@ -71,3 +71,7 @@ Full credits for this widget should go to [Aleksandar Diklic](https://github.com
 ## License
 
 dashing-semaphore is released under the MIT License. Developed by [rastasheep](https://github.com/rastasheep). Adapted by [gottfrois](https://github.com/gottfrois).
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/gottfrois/dashing-semaphore/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
