@@ -98,7 +98,7 @@ module Dashing
       end
 
       def uri
-        @uri ||= ::URI.parse("https://semaphoreapp.com/api/v1/projects?auth_token=#{auth_token}")
+        @uri ||= ::URI.parse("https://semaphoreci.com/api/v1/projects?auth_token=#{auth_token}")
       end
 
       def projects
